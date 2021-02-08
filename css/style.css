@@ -24,3 +24,11 @@ img{
   margin:0 auto 30px;
 
 }
+
+.circle-img img{
+  height: 256px;
+  width: 256px;
+  background-color: #428BCA;
+  border-radius: 100%;
+  padding: 30px;
+}

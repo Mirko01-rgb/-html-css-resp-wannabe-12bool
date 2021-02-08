@@ -29,6 +29,10 @@
 }
 
 @media all and (max-width: 767px)  {
+
+  h1{
+    color: green;
+  }
   .col-xs-1 {
     width: calc((100% / 12));
   }
@@ -134,6 +138,11 @@
 
 /* regole md */
 @media all and (min-width: 768px) and (max-width: 991px) {
+
+  h1{
+    color: red;
+    font-weight: bold;
+  }
   .col-md-1 {
     width: calc((100% / 12));
   }
@@ -238,6 +247,7 @@
 
 /* regole lg */
 @media all and (min-width: 992px) {
+
   .col-lg-1 {
     width: calc((100% / 12));
   }

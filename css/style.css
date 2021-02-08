@@ -1,9 +1,10 @@
 [class*="col-"]{
   margin-bottom: 30px;
-  border: 1px solid black;
-  /* background-color: red; */
   min-height: 50px;
-  position: relative;
+  /* debug */
+  /* border: 1px solid black;  */
+  /* background-color: red; */
+
 
 }
 
@@ -12,16 +13,18 @@ h1, h3{
 }
 
 p{
-  width: 72%;
+  width: 91%;
   text-align: center;
   display: block;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 img{
   height: 200px;
   display: block;
   margin:0 auto 30px;
+  margin-top: 30px;
 
 }
 
@@ -31,4 +34,22 @@ img{
   background-color: #428BCA;
   border-radius: 100%;
   padding: 30px;
+}
+
+.margin{
+  margin-bottom: 0;
+}
+
+.background-color{
+  background-color: #F9F9F9;
+
+}
+
+.padding-bottom{
+  padding-bottom: 18px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #9A9A9A;
+
 }
